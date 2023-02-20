@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	char a;
+	char c;
 
-	for (a = "a"; a <= "z"; a++)
+	for (c = "a"; c <= "z"; c++)
 	{
-		if (a != "q" && a != "e")
+		if (c != "q" && c != "e")
 		{
-			putchar(a);
+			putchar(c);
 		}
 	}
 

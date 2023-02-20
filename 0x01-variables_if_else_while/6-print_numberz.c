@@ -4,16 +4,17 @@
 /**
  * main - entry point
  *
- * return: 0
+ * Return: 0
  */
 
 int main(void)
 {
-	int a;
+	int a = 0;
 
-	for (a = 0; a < 10; a++)
+	while (a < 10)
 	{
 		putchar(a);
+		a++;
 	}
 
 	putchar('\n');
